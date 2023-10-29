@@ -1,7 +1,6 @@
 import streamlit as st
 
-FILEPATH = "/todos.txt"
-
+FILEPATH = "/workspaces/todo-python/todos.txt"
 
 def get_todos(filepath=FILEPATH):
     with open(filepath, 'r') as file:

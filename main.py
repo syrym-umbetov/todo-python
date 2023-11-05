@@ -53,4 +53,3 @@ while True:
     else:
         print('Unknown command')
 print('Bye')
-print('Test')
